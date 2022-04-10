@@ -1,0 +1,29 @@
+{
+  "name": "api-rate-limiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajcuddeback/api-rate-limiter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajcuddeback/api-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/ajcuddeback/api-rate-limiter#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-cache": "^5.1.2",
+    "request-ip": "^2.1.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
